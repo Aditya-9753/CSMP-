@@ -1,34 +1,36 @@
 # =========================
-# GENERAL
+# ENVIRONMENT FILES
 # =========================
 .env
 .env.*
+.env.local
+
+# =========================
+# LOG FILES
+# =========================
 *.log
 logs/
 
-# OS files
+# =========================
+# OS GENERATED FILES
+# =========================
 .DS_Store
 Thumbs.db
 
 # =========================
-# VS CODE / IDE
+# IDE / EDITORS
 # =========================
 .vscode/
 .idea/
 
 # =========================
-# WINDOWS USER CACHE (IMPORTANT)
+# WINDOWS USER FILES (DO NOT TRACK)
 # =========================
-%USERPROFILE%/
-%USERPROFILE%/npm-cache/
-npm-cache/
-
-# Sometimes VS Code shows expanded user folders
 AppData/
 AppData/**
 
 # =========================
-# PYTHON / FASTAPI (Backend)
+# PYTHON / FASTAPI (BACKEND)
 # =========================
 __pycache__/
 *.py[cod]
@@ -43,23 +45,23 @@ env/
 .coverage
 htmlcov/
 
-# Local DB files
+# Local databases
 *.sqlite3
 *.db
 
 # =========================
-# NODE / REACT / FRONTEND
+# NODE / REACT (FRONTEND)
 # =========================
 node_modules/
 dist/
 build/
 
-# Vite cache
+# Vite / cache
 .vite/
 .cache/
 
 # =========================
-# TEMP / RUNTIME
+# TEMP / RUNTIME FILES
 # =========================
 tmp/
 temp/
@@ -67,6 +69,7 @@ sessions/
 runtime/
 
 # =========================
-# DO NOT IGNORE
+# IMPORTANT: DO NOT IGNORE
 # =========================
+!backend/requirements.txt
 !.gitignore
