@@ -1,0 +1,72 @@
+# =========================
+# GENERAL
+# =========================
+.env
+.env.*
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# =========================
+# VS CODE / IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# WINDOWS USER CACHE (IMPORTANT)
+# =========================
+%USERPROFILE%/
+%USERPROFILE%/npm-cache/
+npm-cache/
+
+# Sometimes VS Code shows expanded user folders
+AppData/
+AppData/**
+
+# =========================
+# PYTHON / FASTAPI (Backend)
+# =========================
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local DB files
+*.sqlite3
+*.db
+
+# =========================
+# NODE / REACT / FRONTEND
+# =========================
+node_modules/
+dist/
+build/
+
+# Vite cache
+.vite/
+.cache/
+
+# =========================
+# TEMP / RUNTIME
+# =========================
+tmp/
+temp/
+sessions/
+runtime/
+
+# =========================
+# DO NOT IGNORE
+# =========================
+!.gitignore

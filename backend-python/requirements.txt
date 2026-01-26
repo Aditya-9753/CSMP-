@@ -1,0 +1,55 @@
+# Core
+fastapi
+uvicorn[standard]
+
+# Env & Config
+python-dotenv
+pydantic
+pydantic-settings
+
+# Database
+sqlalchemy
+alembic
+
+# Security & Crypto
+cryptography
+passlib[bcrypt]
+python-jose
+
+# WebSocket
+websockets
+
+# Rate limiting / utils
+slowapi
+python-multipart
+
+# Testing
+pytest
+pytest-asyncio
+httpx
+
+# Logging
+loguru
+structlog
+# CORS
+fastapi-cors
+# Background Tasks  
+celery
+redis
+# HTTP Client
+httpx
+# Email
+aiosmtplib
+email-validator
+# File Handling
+aiofiles
+# Data Validation
+jsonschema
+# Monitoring
+prometheus-client
+# Serialization
+orjson
+# Task Scheduling
+APScheduler
+# API Documentation
+fastapi-pagination
