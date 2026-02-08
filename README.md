@@ -1,3 +1,12 @@
+<p>
+    <img src="https://img.shields.io/badge/Frontend-React-blue?style=for-the-badge&logo=react" />
+    <img src="https://img.shields.io/badge/Backend-FastAPI-green?style=for-the-badge&logo=fastapi" />
+    <img src="https://img.shields.io/badge/Language-Python-yellow?style=for-the-badge&logo=python" />
+    
+  </p>
+
+
+
 CSMP – Custom Secure Messaging Protocol
 
 CSMP (Custom Secure Messaging Protocol) is a secure, session-based, real-time communication platform designed to handle authenticated messaging, live chat, call signaling, and protocol-level history tracking.
